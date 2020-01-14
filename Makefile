@@ -1,7 +1,7 @@
 MyProductName = "SSHFS-Win"
 MyCompanyName = "Navimatics LLC"
 MyDescription = "SSHFS for Windows"
-MyVersion = 3.5.$(shell date '+%y%j')
+MyVersion = 2.10.$(shell date '+%y%j').1
 ifeq ($(shell uname -m),x86_64)
 	MyArch = x64
 else
